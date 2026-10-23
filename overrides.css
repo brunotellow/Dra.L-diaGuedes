@@ -4,7 +4,7 @@
   border: 0 !important;
 }
 
-/* Remove somente o contorno/borda no hover dos blocos; preserva fundo, animação e transições. */
+/* Remove apenas a borda/contorno dos blocos no hover, preservando fundo e animação. */
 .mentor-section .mentor-benefits > *,
 .mentor-section .mentor-benefits > *:hover,
 .mentor-section .mentor-benefit,
@@ -13,5 +13,4 @@
 .mentor-section .mentor-benefits button:hover {
   outline: 0 !important;
   border-color: transparent !important;
-  box-shadow: none !important;
 }

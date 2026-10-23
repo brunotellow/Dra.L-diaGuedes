@@ -1,0 +1,5 @@
+/* Ajustes pontuais do site da Dra. Lídia Guedes */
+/* Remove a borda branca externa da faixa de diferenciais sem alterar o hover azul. */
+.mentor-section .mentor-benefits {
+  border: 0 !important;
+}

@@ -1333,6 +1333,8 @@ let ticking=false;window.addEventListener('scroll',()=>{if(!ticking){requestAnim
       injectedStyle.id = "melanoma-article-style";
       injectedStyle.textContent = articleCss;
       document.head.appendChild(injectedStyle);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
       document.title = "Melanoma de Conjuntiva | Dra. Lídia Guedes";
     } else if (!showArticle && injectedStyle) {
       injectedStyle.remove();

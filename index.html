@@ -1247,5 +1247,58 @@ let ticking=false;window.addEventListener('scroll',()=>{if(!ticking){requestAnim
 }
 </style>
 
+
+<style id="mentor-instagram-mobile-icon-only">
+/* Botão do Instagram: no mobile, manter somente os ícones; desktop permanece inalterado. */
+@media (max-width: 620px) {
+  .mentor-section a[href*="instagram" i],
+  .mentor-section a[aria-label*="instagram" i],
+  .mentor-section .mentor-instagram {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 9px !important;
+    width: auto !important;
+    min-width: 0 !important;
+    min-height: 38px !important;
+    height: 38px !important;
+    padding: 0 11px !important;
+    border-radius: 999px !important;
+    box-sizing: border-box !important;
+    white-space: nowrap !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+    letter-spacing: 0 !important;
+  }
+
+  .mentor-section a[href*="instagram" i] svg,
+  .mentor-section a[aria-label*="instagram" i] svg,
+  .mentor-section .mentor-instagram svg {
+    display: block !important;
+    width: 16px !important;
+    height: 16px !important;
+    flex: 0 0 auto !important;
+  }
+
+  .mentor-section a[href*="instagram" i] i,
+  .mentor-section a[aria-label*="instagram" i] i,
+  .mentor-section .mentor-instagram i {
+    display: inline-block !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .mentor-section a[href*="instagram" i] img,
+  .mentor-section a[aria-label*="instagram" i] img,
+  .mentor-section .mentor-instagram img {
+    display: block !important;
+    width: 16px !important;
+    height: 16px !important;
+    object-fit: contain !important;
+    flex: 0 0 auto !important;
+  }
+}
+</style>
+
 </body>
 </html>
